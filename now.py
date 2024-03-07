@@ -867,1095 +867,1096 @@ def callback_button1(call:types.CallbackQuery):
         markup_avtor92.add(types.InlineKeyboardButton(text='Чудная картина…', callback_data='chudnyakartina'))
         bot.send_message(call.message.chat.id, text='Выбери стих', reply_markup= markup_avtor92)
     if call.data == 'bunny':
-        f = open('botik/стихи/1 класс/Блок/Зайчик.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Блок/Зайчик.txt', 'r', encoding='utf-8')
         content = f.read()
         bot.send_message(call.message.chat.id,content)
     if call.data == 'crow':
-        f = open('botik/стихи/1 класс/Блок/Ворона.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Блок/Ворона.txt', 'r', encoding='utf-8')
         content1 =f.read()
         bot.send_message(call.message.chat.id, content1)
     if call.data == 'adilapidatedhut':
-        f = open('botik/стихи/1 класс/Блок/Ветхая избушка.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Блок/Ветхая избушка.txt', 'r', encoding='utf-8')
         content2 = f.read()
         bot.send_message(call.message.chat.id, content2)
     if call.data == 'dreams':
-        f = open('botik/стихи/1 класс/Блок/Сны.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Блок/Сны.txt', 'r', encoding='utf-8')
         content3 =f.read()
         bot.send_message(call.message.chat.id, content3)
     if call.data == 'youcv':
-        f = open('botik/стихи/1 класс/Брюсов/Вы, снежинки, вейте….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Брюсов/Вы, снежинки, вейте….txt', 'r', encoding='utf-8')
         content4 = f.read()
         bot.send_message(call.message.chat.id, content4)
     if call.data == 'col':
-        f = open('botik/стихи/1 класс/Брюсов/Коляда.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Брюсов/Коляда.txt', 'r', encoding='utf-8')
         content5 = f.read()
         bot.send_message(call.message.chat.id, content5)
     if call.data == 'colu':
-        f = open('botik/стихи/1 класс/Брюсов/Коляда.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Брюсов/Коляда.txt', 'r', encoding='utf-8')
         content6 = f.read()
         bot.send_message(call.message.chat.id, content6)
     if call.data == 'cuchi':
-        f = open('botik/стихи/1 класс/Брюсов/Кучи свезенного снега.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Брюсов/Кучи свезенного снега.txt', 'r', encoding='utf-8')
         content7 = f.read()
         bot.send_message(call.message.chat.id, content7)
     if call.data == 'mashi':
-        f = open('botik/стихи/1 класс/Брюсов/Мыши.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Брюсов/Мыши.txt', 'r', encoding='utf-8')
         content8 = f.read()
         bot.send_message(call.message.chat.id, content8)
     if call.data == 'nasankax':
-        f = open('botik/стихи/1 класс/Брюсов/На санках.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Брюсов/На санках.txt', 'r', encoding='utf-8')
         content9 = f.read()
         bot.send_message(call.message.chat.id, content9)
     if call.data == 'nettebe':
-        f = open('botik/стихи/1 класс/Брюсов/Нет тебе на свете равных….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Брюсов/Нет тебе на свете равных….txt', 'r', encoding='utf-8')
         content10 = f.read()
         bot.send_message(call.message.chat.id, content10)
     if call.data == 'holod':
-        f = open('botik/стихи/1 класс/Брюсов/Холод ночи; смерзлись лужи….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Брюсов/Холод ночи; смерзлись лужи….txt', 'r', encoding='utf-8')
         content11 = f.read()
         bot.send_message(call.message.chat.id, content11)
     if call.data ==  'belay':
-        f = open('botik/стихи/1 класс/Есенин/Берёза.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Есенин/Берёза.txt', 'r', encoding='utf-8')
         content12 = f.read()
         bot.send_message(call.message.chat.id, content12)
     if call.data ==  'vesennui':
-        f = open('botik/стихи/1 класс/Есенин/Весенний вечер.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Есенин/Весенний вечер.txt', 'r', encoding='utf-8')
         content13 = f.read()
         bot.send_message(call.message.chat.id, content13)
     if call.data ==  'votuschvecher':
-        f = open('botik/стихи/1 класс/Есенин/Вот уж вечер….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Есенин/Вот уж вечер….txt', 'r', encoding='utf-8')
         content14 = f.read()
         bot.send_message(call.message.chat.id, content14)
     if call.data ==  'winter':
-        f = open('botik/стихи/1 класс/Есенин/Зима.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Есенин/Зима.txt', 'r', encoding='utf-8')
         content15 = f.read()
         bot.send_message(call.message.chat.id, content15)
     if call.data ==  'nasevere':
-        f = open('botik/стихи/1 класс/Лермонтов/На севере диком стоит одиноко….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Лермонтов/На севере диком стоит одиноко….txt', 'r', encoding='utf-8')
         content16 = f.read()
         bot.send_message(call.message.chat.id, content16)
     if call.data ==  'osen':
-        f = open('botik/стихи/1 класс/Лермонтов/Осень.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Лермонтов/Осень.txt', 'r', encoding='utf-8')
         content17 = f.read()
         bot.send_message(call.message.chat.id, content17)
     if call.data ==  'utes':
-        f = open('botik/стихи/1 класс/Лермонтов/Утес.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Лермонтов/Утес.txt', 'r', encoding='utf-8')
         content18 = f.read()
         bot.send_message(call.message.chat.id, content18)
     if call.data ==  'chotoni':
-        f = open('botik/стихи/1 класс/Маяковский/Что ни страница, — то слон, то львица.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Маяковский/Что ни страница, — то слон, то львица.txt', 'r', encoding='utf-8')
         content19 = f.read()
         bot.send_message(call.message.chat.id, content19)
     if call.data ==  'shtotakoe':
-        f = open('botik/стихи/1 класс/Маяковский/Что такое хорошо и что такое плохо.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Маяковский/Что такое хорошо и что такое плохо.txt', 'r', encoding='utf-8')
         content20 = f.read()
         bot.send_message(call.message.chat.id, content20)
     if call.data ==  'tychkinu':
-        f = open('botik/стихи/1 класс/Маяковский/Тучкины штучки.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Маяковский/Тучкины штучки.txt', 'r', encoding='utf-8')
         content21 = f.read()
         bot.send_message(call.message.chat.id, content21)
     if call.data == 'ugnebo':
-        f = open('botik/стихи/1 класс/Пушкин/«Уж небо осенью дышало…» (отрывок из романа «Евгений Онегин»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/«Уж небо осенью дышало…» (отрывок из романа «Евгений Онегин»).txt', 'r', encoding='utf-8')
         content22 = f.read()
         bot.send_message(call.message.chat.id, content22)
     if call.data == 'zimneeutro':
-        f = open('botik/стихи/1 класс/Пушкин/Зимнее утро.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/Зимнее утро.txt', 'r', encoding='utf-8')
         content23 = f.read()
         bot.send_message(call.message.chat.id, content23)
     if call.data == 'nyane':
-        f = open('botik/стихи/1 класс/Пушкин/Няне.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/Няне.txt', 'r', encoding='utf-8')
         content24 = f.read()
         bot.send_message(call.message.chat.id, content24)
     if call.data == 'yapamytniuk':
-        f = open('botik/стихи/1 класс/Пушкин/Я памятник себе воздвиг нерукотворный….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/Я памятник себе воздвиг нерукотворный….txt', 'r', encoding='utf-8')
         content25 = f.read()
         bot.send_message(call.message.chat.id, content25)
     if call.data == 'yapamytniuk':
-        f = open('botik/стихи/1 класс/Пушкин/Я памятник себе воздвиг нерукотворный….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/Я памятник себе воздвиг нерукотворный….txt', 'r', encoding='utf-8')
         content26 = f.read()
         bot.send_message(call.message.chat.id, content26)
     if call.data == 'yavaslubil':
-        f = open('botik/стихи/1 класс/Пушкин/Я вас любил любовь еще, быть может….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/Я вас любил любовь еще, быть может….txt', 'r', encoding='utf-8')
         content27 = f.read()
         bot.send_message(call.message.chat.id, content27)
     if call.data == 'ylokomor':
-        f = open('botik/стихи/1 класс/Пушкин/У лукоморья дуб зеленый… (отрывок из «Руслан и Людмила»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/У лукоморья дуб зеленый… (отрывок из «Руслан и Людмила»).txt', 'r', encoding='utf-8')
         content28 = f.read()
         bot.send_message(call.message.chat.id, content28)
     if call.data == 'shumit':
-        f = open('botik/стихи/1 класс/Пушкин/Шумит кустарник… На утес….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/Шумит кустарник… На утес….txt', 'r', encoding='utf-8')
         content29 = f.read()
         bot.send_message(call.message.chat.id, content29)
     if call.data == 'naholmax':
-        f = open('botik/стихи/1 класс/Пушкин/На холмах Грузии лежит ночная мгла….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/На холмах Грузии лежит ночная мгла….txt', 'r', encoding='utf-8')
         content30 = f.read()
         bot.send_message(call.message.chat.id, content30)
     if call.data == 'strekunya':
-        f = open('botik/стихи/1 класс/Пушкин/Стрекотунья белобока….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Пушкин/Стрекотунья белобока….txt', 'r', encoding='utf-8')
         content31 = f.read()
         bot.send_message(call.message.chat.id, content31)
     if call.data == 'zimanedarom':
-        f = open('botik/стихи/1 класс/Тютчев/Зима недаром злится….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Тютчев/Зима недаром злится….txt', 'r', encoding='utf-8')
         content32 = f.read()
         bot.send_message(call.message.chat.id, content32)
     if call.data == 'polden':
-        f = open('botik/стихи/1 класс/Тютчев/Полдень.txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Тютчев/Полдень.txt', 'r', encoding='utf-8')
         content33 = f.read()
         bot.send_message(call.message.chat.id, content33)
     if call.data == 'charodeikou':
-        f = open('botik/стихи/1 класс/Тютчев/Чародейкою зимою….txt', 'r', encoding='utf-8')
+        f = open('./стихи/1 класс/Тютчев/Чародейкою зимою….txt', 'r', encoding='utf-8')
         content34 = f.read()
         bot.send_message(call.message.chat.id, content34)
     if call.data == 'nalugu':
-        f = open('botik/стихи/2 класс/Блок/На лугу.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Блок/На лугу.txt', 'r', encoding='utf-8')
         content35 = f.read()
         bot.send_message(call.message.chat.id, content35)
     if call.data == 'veselimsucrug':
-        f = open('botik/стихи/2 класс/Блок/На лугу.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Блок/На лугу.txt', 'r', encoding='utf-8')
         content36 = f.read()
         bot.send_message(call.message.chat.id, content36)
     if call.data == 'dalniuchum':
-        f = open('botik/стихи/2 класс/Брюсов/Дальний шум фонтана….txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Брюсов/Дальний шум фонтана….txt', 'r', encoding='utf-8')
         content37 = f.read()
         bot.send_message(call.message.chat.id, content37)
     if call.data == 'crot':
-        f = open('botik/стихи/2 класс/Брюсов/Крот.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Брюсов/Крот.txt', 'r', encoding='utf-8')
         content38 = f.read()
         bot.send_message(call.message.chat.id, content38)
     if call.data == 'letnayagroza':
-        f = open('botik/стихи/2 класс/Брюсов/Летняя гроза.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Брюсов/Летняя гроза.txt', 'r', encoding='utf-8')
         content39 = f.read()
         bot.send_message(call.message.chat.id, content39)
     if call.data == 'vecherkakasaga':
-        f = open('botik/стихи/2 класс/Есенин/Вечер, как сажа.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Есенин/Вечер, как сажа.txt', 'r', encoding='utf-8')
         content40 = f.read()
         bot.send_message(call.message.chat.id, content40)
     if call.data == 'kapli':
-        f = open('botik/стихи/2 класс/Есенин/Капли.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Есенин/Капли.txt', 'r', encoding='utf-8')
         content41 = f.read()
         bot.send_message(call.message.chat.id, content41)
     if call.data == 'dvavelecana':
-        f = open('botik/стихи/2 класс/Лермонтов/Два великана.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Лермонтов/Два великана.txt', 'r', encoding='utf-8')
         content42 = f.read()
         bot.send_message(call.message.chat.id, content42)
     if call.data == 'istoriavlasa':
-        f = open('botik/стихи/2 класс/Маяковский/История Власа — лентяя и лоботряса.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Маяковский/История Власа — лентяя и лоботряса.txt', 'r', encoding='utf-8')
         content39 = f.read()
         bot.send_message(call.message.chat.id, content39)
     if call.data == 'mayskayptisha':
-        f = open('botik/стихи/2 класс/Маяковский/Майская песенка.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Маяковский/Майская песенка.txt', 'r', encoding='utf-8')
         content40 = f.read()
         bot.send_message(call.message.chat.id, content40)
     if call.data == 'muvasgdimtovaris':
-        f = open('botik/стихи/2 класс/Маяковский/Мы вас ждем, товарищ птица, отчего вам не летится.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Маяковский/Мы вас ждем, товарищ птица, отчего вам не летится.txt', 'r', encoding='utf-8')
         content41 = f.read()
         bot.send_message(call.message.chat.id, content41)
     if call.data == 'prochtiikataiv':
-        f = open('botik/стихи/2 класс/Маяковский/Прочти и катай в Париж и в Китай.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Маяковский/Прочти и катай в Париж и в Китай.txt', 'r', encoding='utf-8')
         content42 = f.read()
         bot.send_message(call.message.chat.id, content42)
     if call.data == 'deduchkamazai':
-        f = open('botik/стихи/2 класс/Некрасов/Дедушка Мазай и Зайцы.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Некрасов/Дедушка Мазай и Зайцы.txt', 'r', encoding='utf-8')
         content43 = f.read()
         bot.send_message(call.message.chat.id, content43)
     if call.data == 'pereddogdum':
-        f = open('botik/стихи/2 класс/Некрасов/Перед дождем.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Некрасов/Перед дождем.txt', 'r', encoding='utf-8')
         content44 = f.read()
         bot.send_message(call.message.chat.id, content44)
     if call.data == 'slavnayjsen':
-        f = open('botik/стихи/2 класс/Некрасов/Славная осень (отрывок из «Железная дорога»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Некрасов/Славная осень (отрывок из «Железная дорога»).txt', 'r', encoding='utf-8')
         content45 = f.read()
         bot.send_message(call.message.chat.id, content45)
     if call.data == 'vtotgot':
-        f = open('botik/стихи/2 класс/Пушкин/В тот год осенняя погода… (отрывок из «Евгения Онегина»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Пушкин/В тот год осенняя погода… (отрывок из «Евгения Онегина»).txt', 'r', encoding='utf-8')
         content46 = f.read()
         bot.send_message(call.message.chat.id, content46)
     if call.data == 'ovesne':
-        f = open('botik/стихи/2 класс/Пушкин/О весне (отрывок из романа «Евгений Онегин»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Пушкин/О весне (отрывок из романа «Евгений Онегин»).txt', 'r', encoding='utf-8')
         content47 = f.read()
         bot.send_message(call.message.chat.id, content47)
     if call.data == 'ptichkabogiya':
-        f = open('botik/стихи/2 класс/Пушкин/Птичка божия не знает (отрывок из поэмы «Цыганы»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Пушкин/Птичка божия не знает (отрывок из поэмы «Цыганы»).txt', 'r', encoding='utf-8')
         content48 = f.read()
         bot.send_message(call.message.chat.id, content48)
     if call.data == 'vesenyagroza':
-        f = open('botik/стихи/2 класс/Тютчев/Весенняя гроза.txt', 'r', encoding='utf-8')
+        f = open('./стихи/2 класс/Тютчев/Весенняя гроза.txt', 'r', encoding='utf-8')
         content49 = f.read()
         bot.send_message(call.message.chat.id, content49)
     if call.data == 'vstaromhrame':
-        f = open('botik/стихи/3 класс/Брюсов/В старинном храме.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Брюсов/В старинном храме.txt', 'r', encoding='utf-8')
         content50 = f.read()
         bot.send_message(call.message.chat.id, content50)
     if call.data == 'vecheromvdoroge':
-        f = open('botik/стихи/3 класс/Брюсов/Вечером в дороге.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Брюсов/Вечером в дороге.txt', 'r', encoding='utf-8')
         content51 = f.read()
         bot.send_message(call.message.chat.id, content51)
     if call.data == 'detskayspevka':
-        f = open('botik/стихи/3 класс/Брюсов/Детская спевка.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Брюсов/Детская спевка.txt', 'r', encoding='utf-8')
         content52 = f.read()
         bot.send_message(call.message.chat.id, content52)
     if call.data == 'dozor':
-        f = open('botik/стихи/3 класс/Брюсов/Дозор.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Брюсов/Дозор.txt', 'r', encoding='utf-8')
         content53 = f.read()
         bot.send_message(call.message.chat.id, content53)
     if call.data == 'zelinuichervyachok':
-        f = open('botik/стихи/3 класс/Брюсов/Зеленый червячок.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Брюсов/Зеленый червячок.txt', 'r', encoding='utf-8')
         content54 = f.read()
         bot.send_message(call.message.chat.id, content54)
     if call.data == 'nochyusvetloi':
-        f = open('botik/стихи/3 класс/Брюсов/Ночью светлой.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Брюсов/Ночью светлой.txt', 'r', encoding='utf-8')
         content55 = f.read()
         bot.send_message(call.message.chat.id, content55)
     if call.data == 'raskochenlesvogne':
-        f = open('botik/стихи/3 класс/Брюсов/Роскошен лес в огне осеннем….txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Брюсов/Роскошен лес в огне осеннем….txt', 'r', encoding='utf-8')
         content56 = f.read()
         bot.send_message(call.message.chat.id, content56)
     if call.data == 'burya':
-        f = open('botik/стихи/3 класс/Есенин/Буря.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Есенин/Буря.txt', 'r', encoding='utf-8')
         content57 = f.read()
         bot.send_message(call.message.chat.id, content57)
     if call.data == 'lictyapadaut':
-        f = open('botik/стихи/3 класс/Есенин/Листья падают, листья падают.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Есенин/Листья падают, листья падают.txt', 'r', encoding='utf-8')
         content58 = f.read()
         bot.send_message(call.message.chat.id, content58)
     if call.data == 'zametaetpurga':
-        f = open('botik/стихи/3 класс/Есенин/Нивы сжаты, рощи голы.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Есенин/Нивы сжаты, рощи голы.txt', 'r', encoding='utf-8')
         content59 = f.read()
         bot.send_message(call.message.chat.id, content59)
     if call.data == 'vesna':
-        f = open('botik/стихи/3 класс/Лермонтов/Весна.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Лермонтов/Весна.txt', 'r', encoding='utf-8')
         content60 = f.read()
         bot.send_message(call.message.chat.id, content60)
     if call.data == 'izgete':
-        f = open('botik/стихи/3 класс/Лермонтов/Из Гете.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Лермонтов/Из Гете.txt', 'r', encoding='utf-8')
         content61 = f.read()
         bot.send_message(call.message.chat.id, content61)
     if call.data == 'kon-ogon':
-        f = open('botik/стихи/3 класс/Маяковский/Конь-огонь.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Маяковский/Конь-огонь.txt', 'r', encoding='utf-8')
         content62 = f.read()
         bot.send_message(call.message.chat.id, content62)
     if call.data == 'kembat':
-        f = open('botik/стихи/3 класс/Маяковский/Кем быть.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Маяковский/Кем быть.txt', 'r', encoding='utf-8')
         content63 = f.read()
         bot.send_message(call.message.chat.id, content63)
     if call.data == 'aviachastyshka':
-        f = open('botik/стихи/3 класс/Маяковский/Авиачастушки.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Маяковский/Авиачастушки.txt', 'r', encoding='utf-8')
         content64 = f.read()
         bot.send_message(call.message.chat.id, content64)
     if call.data == 'vesnavesnapora':
-        f = open('botik/стихи/3 класс/Пушкин/Весна, весна, пора любви….txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Пушкин/Весна, весна, пора любви….txt', 'r', encoding='utf-8')
         content65 = f.read()
         bot.send_message(call.message.chat.id, content65)
     if call.data == 'dryziam':
-        f = open('botik/стихи/3 класс/Пушкин/Друзьям (Богами вам еще даны…).txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Пушкин/Друзьям (Богами вам еще даны…).txt', 'r', encoding='utf-8')
         content66 = f.read()
         bot.send_message(call.message.chat.id, content66)
     if call.data == 'esligiznitebya':
-        f = open('botik/стихи/3 класс/Пушкин/Если жизнь тебя обманет….txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Пушкин/Если жизнь тебя обманет….txt', 'r', encoding='utf-8')
         content67 = f.read()
         bot.send_message(call.message.chat.id, content67)  
     if call.data == 'opritniymodnogoparketa':
-        f = open('botik/стихи/3 класс/Пушкин/Опрятней модного паркета… (отрывок из «Евгения Онегина»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Пушкин/Опрятней модного паркета… (отрывок из «Евгения Онегина»).txt', 'r', encoding='utf-8')
         content68 = f.read()
         bot.send_message(call.message.chat.id, content68)
     if call.data == 'yadumalserdche':
-        f = open('botik/стихи/3 класс/Пушкин/Я думал, сердце позабыло….txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Пушкин/Я думал, сердце позабыло….txt', 'r', encoding='utf-8')
         content69 = f.read()
         bot.send_message(call.message.chat.id, content69) 
     if call.data == 'listya':
-        f = open('botik/стихи/3 класс/Тютчев/Листья.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Тютчев/Листья.txt', 'r', encoding='utf-8')
         content70 = f.read()
         bot.send_message(call.message.chat.id, content70)
     if call.data == 'neostavshaya':
-        f = open('botik/стихи/3 класс/Тютчев/Не остывшая от зною….txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Тютчев/Не остывшая от зною….txt', 'r', encoding='utf-8')
         content71 = f.read()
         bot.send_message(call.message.chat.id, content71)
     if call.data == 'osennuivecher':
-        f = open('botik/стихи/3 класс/Тютчев/Осенний вечер.txt', 'r', encoding='utf-8')
+        f = open('./стихи/3 класс/Тютчев/Осенний вечер.txt', 'r', encoding='utf-8')
         content72 = f.read()
         bot.send_message(call.message.chat.id, content72)
     if call.data == 'rus':
-        f = open('botik/стихи/4 класс/Блок/Русь.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Блок/Русь.txt', 'r', encoding='utf-8')
         content73 = f.read()
         bot.send_message(call.message.chat.id, content73)
     if call.data == 'russia':
-        f = open('botik/стихи/4 класс/Блок/Россия.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Блок/Россия.txt', 'r', encoding='utf-8')
         content74 = f.read()
         bot.send_message(call.message.chat.id, content74)        
     if call.data == 'peredgrozou':
-        f = open('botik/стихи/4 класс/Блок/Перед грозой.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Блок/Перед грозой.txt', 'r', encoding='utf-8')
         content75 = f.read()
         bot.send_message(call.message.chat.id, content75)
     if call.data == 'vnochiispolnnei':
-        f = open('botik/стихи/4 класс/Блок/В ночи, исполненной грозою….txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Блок/В ночи, исполненной грозою….txt', 'r', encoding='utf-8')
         content76 = f.read()
         bot.send_message(call.message.chat.id, content76)
     if call.data == 'verbochki':
-        f = open('botik/стихи/4 класс/Блок/Вербочки.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Блок/Вербочки.txt', 'r', encoding='utf-8')
         content77 = f.read()
         bot.send_message(call.message.chat.id, content77) 
     if call.data == 'zolotictoydolinou':
-        f = open('botik/стихи/4 класс/Блок/Золотистою долиной….txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Блок/Золотистою долиной….txt', 'r', encoding='utf-8')
         content78 = f.read()
         bot.send_message(call.message.chat.id, content78)
     if call.data == 'blagovestivesenn':
-        f = open('botik/стихи/4 класс/Брюсов/Благовесть весеннего утра.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Брюсов/Благовесть весеннего утра.txt', 'r', encoding='utf-8')
         content79 = f.read()
         bot.send_message(call.message.chat.id, content79)
     if call.data == 'vesenniudogd':
-        f = open('botik/стихи/4 класс/Брюсов/Весенний дождь.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Брюсов/Весенний дождь.txt', 'r', encoding='utf-8')
         content80 = f.read()
         bot.send_message(call.message.chat.id, content80)
     if call.data == 'dvegolovki':
-        f = open('botik/стихи/4 класс/Брюсов/Две головки.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Брюсов/Две головки.txt', 'r', encoding='utf-8')
         content81 = f.read()
         bot.send_message(call.message.chat.id, content81)
     if call.data == 'zemli':
-        f = open('botik/стихи/4 класс/Брюсов/Земле.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Брюсов/Земле.txt', 'r', encoding='utf-8')
         content82 = f.read()
         bot.send_message(call.message.chat.id, content82)
     if call.data == 'opyatson':
-        f = open('botik/стихи/4 класс/Брюсов/Опять сон.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Брюсов/Опять сон.txt', 'r', encoding='utf-8')
         content83 = f.read()
         bot.send_message(call.message.chat.id, content83)
     if call.data == 'cnegnyarussia':
-        f = open('botik/стихи/4 класс/Брюсов/Снежная Россия.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Брюсов/Снежная Россия.txt', 'r', encoding='utf-8')
         content84 = f.read()
         bot.send_message(call.message.chat.id, content84)
     if call.data == 'chvetkiubogi':
-        f = open('botik/стихи/4 класс/Брюсов/Цветики убогие.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Брюсов/Цветики убогие.txt', 'r', encoding='utf-8')
         content85 = f.read()
         bot.send_message(call.message.chat.id, content85)  
     if call.data == 'damompolovod':
-        f = open('botik/стихи/4 класс/Есенин/Дымом половодье зализало ил.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Есенин/Дымом половодье зализало ил.txt', 'r', encoding='utf-8')
         content86 = f.read()
         bot.send_message(call.message.chat.id, content86)
     if call.data == 'zametaetpurga':
-        f = open('botik/стихи/4 класс/Есенин/Заметает пурга белый путь.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Есенин/Заметает пурга белый путь.txt', 'r', encoding='utf-8')
         content87 = f.read()
         bot.send_message(call.message.chat.id, content87)
     if call.data == 'cdobromytrom':
-        f = open('botik/стихи/4 класс/Есенин/С добрым утром!.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Есенин/С добрым утром!.txt', 'r', encoding='utf-8')
         content88 = f.read()
         bot.send_message(call.message.chat.id, content88)
     if call.data == 'borodina':
-        f = open('botik/стихи/4 класс/Лермонтов/Бородино.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Лермонтов/Бородино.txt', 'r', encoding='utf-8')
         content89 = f.read()
         bot.send_message(call.message.chat.id, content89)
     if call.data == 'parus':
-        f = open('botik/стихи/4 класс/Лермонтов/Парус.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Лермонтов/Парус.txt', 'r', encoding='utf-8')
         content90 = f.read()
         bot.send_message(call.message.chat.id, content90)
     if call.data == 'vozmemvintovki':
-        f = open('botik/стихи/4 класс/Маяковский/Возьмем винтовки новые.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Маяковский/Возьмем винтовки новые.txt', 'r', encoding='utf-8')
         content91 = f.read()
         bot.send_message(call.message.chat.id, content91)
     if call.data == 'pesnya-molnia':
-        f = open('botik/стихи/4 класс/Маяковский/Песня-молния.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Маяковский/Песня-молния.txt', 'r', encoding='utf-8')
         content92 = f.read()
         bot.send_message(call.message.chat.id, content92)
     if call.data == 'skazkaopete':
-        f = open('botik/стихи/4 класс/Маяковский/Сказка о Пете, толстом ребенке, и о Симе, который тонкий.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Маяковский/Сказка о Пете, толстом ребенке, и о Симе, который тонкий.txt', 'r', encoding='utf-8')
         content93 = f.read()
         bot.send_message(call.message.chat.id, content93)
     if call.data == 'atakhizechka':
-        f = open('botik/стихи/4 класс/Маяковский/Эта книжечка моя про моря и про маяк.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Маяковский/Эта книжечка моя про моря и про маяк.txt', 'r', encoding='utf-8')
         content94 = f.read()
         bot.send_message(call.message.chat.id, content94)
     if call.data == 'vzemnuecymerki':
-        f = open('botik/стихи/4 класс/Некрасов/В зимние сумерки… (Отрывок из «Саша»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Некрасов/В зимние сумерки… (Отрывок из «Саша»).txt', 'r', encoding='utf-8')
         content95 = f.read()
         bot.send_message(call.message.chat.id, content95)
     if call.data == 'crestyanckaedetu':
-        f = open('botik/стихи/4 класс/Некрасов/Крестьянские дети.txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Некрасов/Крестьянские дети.txt', 'r', encoding='utf-8')
         content96 = f.read()
         bot.send_message(call.message.chat.id, content96)
     if call.data == 'odnagdau':
-        f = open('botik/стихи/4 класс/Некрасов/Однажды, в студеную зимнюю пору… (отрывок из «Крестьянские дети»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Некрасов/Однажды, в студеную зимнюю пору… (отрывок из «Крестьянские дети»).txt', 'r', encoding='utf-8')
         content97 = f.read()
         bot.send_message(call.message.chat.id, content97)
     if call.data == 'zima!...':
-        f = open('botik/стихи/4 класс/Пушкин/Зима!.. Крестьянин, торжествуя… (Отрывок из «Евгения Онегина»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Пушкин/Зима!.. Крестьянин, торжествуя… (Отрывок из «Евгения Онегина»).txt', 'r', encoding='utf-8')
         content98 = f.read()
         bot.send_message(call.message.chat.id, content98)
     if call.data == 'echedyyatho':
-        f = open('botik/стихи/4 класс/Пушкин/Еще дуют холодные ветры….txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Пушкин/Еще дуют холодные ветры….txt', 'r', encoding='utf-8')
         content99 = f.read()
         bot.send_message(call.message.chat.id, content99)
     if call.data == 'darnaprasnau':
-        f = open('botik/стихи/4 класс/Пушкин/Дар напрасный, дар случайный….txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Пушкин/Дар напрасный, дар случайный….txt', 'r', encoding='utf-8')
         content100 = f.read()
         bot.send_message(call.message.chat.id, content100)
     if call.data == 'smotri,kakrocha':
-        f = open('botik/стихи/4 класс/Тютчев/Смотри, как роща зеленеет….txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Тютчев/Смотри, как роща зеленеет….txt', 'r', encoding='utf-8')
         content102 = f.read()
         bot.send_message(call.message.chat.id, content102)
     if call.data == 'atibednae':
-        f = open('botik/стихи/4 класс/Тютчев/Эти бедные селенья….txt', 'r', encoding='utf-8')
+        f = open('./стихи/4 класс/Тютчев/Эти бедные селенья….txt', 'r', encoding='utf-8')
         content103 = f.read()
         bot.send_message(call.message.chat.id, content103)    
     if call.data == 'zimnyadoroga':
-        f = open('botik/стихи/5 класс/Пушкин/Зимняя дорога.txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Пушкин/Зимняя дорога.txt', 'r', encoding='utf-8')
         content104 = f.read()
         bot.send_message(call.message.chat.id, content104)
     if call.data == 'vpolechistom':
-        f = open('botik/стихи/5 класс/Пушкин/В поле чистом серебрится….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Пушкин/В поле чистом серебрится….txt', 'r', encoding='utf-8')
         content105 = f.read()
         bot.send_message(call.message.chat.id, content105)
     if call.data == 'yacamnerad':
-        f = open('botik/стихи/5 класс/Пушкин/Я сам не рад болтливости своей… (отрывок из «Сон»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Пушкин/Я сам не рад болтливости своей… (отрывок из «Сон»).txt', 'r', encoding='utf-8')
         content106 = f.read()
         bot.send_message(call.message.chat.id, content106)  
     if call.data == 'listok':
-        f = open('botik/стихи/5 класс/Лермонтов/Листок.txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Лермонтов/Листок.txt', 'r', encoding='utf-8')
         content107 = f.read()
         bot.send_message(call.message.chat.id, content107)  
     if call.data == 'vesenniuvoda':
-        f = open('botik/стихи/5 класс/Тютчев/Весенние воды.txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Тютчев/Весенние воды.txt', 'r', encoding='utf-8')
         content108 = f.read()
         bot.send_message(call.message.chat.id, content108)
     if call.data == 'poddahaniuem':
-        f = open('botik/стихи/5 класс/Тютчев/Под дыханьем непогоды….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Тютчев/Под дыханьем непогоды….txt', 'r', encoding='utf-8')
         content108 = f.read()
         bot.send_message(call.message.chat.id, content108)   
     if call.data == 'prevracheniya':
-        f = open('botik/стихи/5 класс/Фет/Превращения.txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Фет/Превращения.txt', 'r', encoding='utf-8')
         content109 = f.read()
         bot.send_message(call.message.chat.id, content109) 
     if call.data == 'kogdavocled':
-        f = open('botik/стихи/5 класс/Фет/Когда вослед весенних бурь….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Фет/Когда вослед весенних бурь….txt', 'r', encoding='utf-8')
         content110 = f.read()
         bot.send_message(call.message.chat.id, content110)
     if call.data == 'zreetrog':
-        f = open('botik/стихи/5 класс/Фет/Зреет рожь над жаркой нивой….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Фет/Зреет рожь над жаркой нивой….txt', 'r', encoding='utf-8')
         content111 = f.read()
         bot.send_message(call.message.chat.id, content111)
     if call.data == 'lastochkipro':
-        f = open('botik/стихи/5 класс/Фет/Ласточки пропали….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Фет/Ласточки пропали….txt', 'r', encoding='utf-8')
         content112 = f.read()
         bot.send_message(call.message.chat.id, content112)
     if call.data == 'strekozaandmuravieu':
-        f = open('botik/стихи/5 класс/Крылов/Стрекоза и муравей.txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Крылов/Стрекоза и муравей.txt', 'r', encoding='utf-8')
         content113 = f.read()
         bot.send_message(call.message.chat.id, content113)
     if call.data == 'svinyapoddybom':
-        f = open('botik/стихи/5 класс/Крылов/Свинья под дубом.txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Крылов/Свинья под дубом.txt', 'r', encoding='utf-8')
         content114 = f.read()
         bot.send_message(call.message.chat.id, content114)
     if call.data == 'medechinskiesti':
-        f = open('botik/стихи/5 класс/Толстой/Медицинские стихотворения.txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Толстой/Медицинские стихотворения.txt', 'r', encoding='utf-8')
         content115 = f.read()
         bot.send_message(call.message.chat.id, content115)
     if call.data == 'kolokilchikimoi':
-        f = open('botik/стихи/5 класс/Толстой/Колокольчики мои….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Толстой/Колокольчики мои….txt', 'r', encoding='utf-8')
         content116 = f.read()
         bot.send_message(call.message.chat.id, content116)
     if call.data == 'cramskieocherki':
-        f = open('botik/стихи/5 класс/Толстой/Крымские очерки 13 («Смотри, все ближе с двух сторон…»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Толстой/Крымские очерки 13 («Смотри, все ближе с двух сторон…»).txt', 'r', encoding='utf-8')
         content117 = f.read()
         bot.send_message(call.message.chat.id, content117)
     if call.data == 'posledogdya':
-        f = open('botik/стихи/5 класс/Блок/После дождя.txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Блок/После дождя.txt', 'r', encoding='utf-8')
         content118 = f.read()
         bot.send_message(call.message.chat.id, content118)
     if call.data == 'ocenniyuvechertak':
-        f = open('botik/стихи/5 класс/Блок/Осенний вечер так печален….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Блок/Осенний вечер так печален….txt', 'r', encoding='utf-8')
         content119 = f.read()
         bot.send_message(call.message.chat.id, content119)
     if call.data == 'pogrygalsyavmore':
-        f = open('botik/стихи/5 класс/Блок/Погружался я в море клевера….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Блок/Погружался я в море клевера….txt', 'r', encoding='utf-8')
         content120 = f.read()
         bot.send_message(call.message.chat.id, content120)
     if call.data == 'topidabolota':
-        f = open('botik/стихи/5 класс/Есенин/Топи да болота….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Есенин/Топи да болота….txt', 'r', encoding='utf-8')
         content121 = f.read()
         bot.send_message(call.message.chat.id, content121)
     if call.data == 'yapokinulrod':
-        f = open('botik/стихи/5 класс/Есенин/Я покинул родимый дом….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Есенин/Я покинул родимый дом….txt', 'r', encoding='utf-8')
         content122 = f.read()
         bot.send_message(call.message.chat.id, content122)
     if call.data == 'nizkiudoms':
-        f = open('botik/стихи/5 класс/Есенин/Низкий дом с голубыми ставнями….txt', 'r', encoding='utf-8')
+        f = open('./стихи/5 класс/Есенин/Низкий дом с голубыми ставнями….txt', 'r', encoding='utf-8')
         content123 = f.read()
         bot.send_message(call.message.chat.id, content123)
     if call.data == 'porosha':
-        f = open('botik/стихи/6 класс/Есенин/Пороша.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Есенин/Пороша.txt', 'r', encoding='utf-8')
         content124 = f.read()
         bot.send_message(call.message.chat.id, content124)
     if call.data == 'pesnosobake':
-        f = open('bobotik/стихи/6 класс/Есенин/Песнь о собаке.txt', 'r', encoding='utf-8')
+        f = open('bo./стихи/6 класс/Есенин/Песнь о собаке.txt', 'r', encoding='utf-8')
         content125 = f.read()
         bot.send_message(call.message.chat.id, content125)
     if call.data == 'melcolese':
-        f = open('botik/стихи/6 класс/Есенин/Мелколесье. Степь и дали….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Есенин/Мелколесье. Степь и дали….txt', 'r', encoding='utf-8')
         content126 = f.read()
         bot.send_message(call.message.chat.id, content126)
     if call.data == 'razbydimenya':
-        f = open('botik/стихи/6 класс/Есенин/Разбуди меня завтра рано….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Есенин/Разбуди меня завтра рано….txt', 'r', encoding='utf-8')
         content127 = f.read()
         bot.send_message(call.message.chat.id, content127)
     if call.data == 'tusha':
-        f = open('botik/стихи/6 класс/Пушкин/Туча.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Пушкин/Туча.txt', 'r', encoding='utf-8')
         content128 = f.read()
         bot.send_message(call.message.chat.id, content128)
     if call.data == 'tusha':
-        f = open('botik/стихи/6 класс/Пушкин/Туча.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Пушкин/Туча.txt', 'r', encoding='utf-8')
         content129 = f.read()
         bot.send_message(call.message.chat.id, content129)
     if call.data == 'volkand':
-        f = open('botik/стихи/6 класс/Крылов/Волк и ягненок.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Крылов/Волк и ягненок.txt', 'r', encoding='utf-8')
         content130 = f.read()
         bot.send_message(call.message.chat.id, content130)
     if call.data == 'dvamalchica':
-        f = open('botik/стихи/6 класс/Крылов/Два мальчика.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Крылов/Два мальчика.txt', 'r', encoding='utf-8')
         content131 = f.read()
         bot.send_message(call.message.chat.id, content131)
     if call.data == 'larchic':
-        f = open('botik/стихи/6 класс/Крылов/Ларчик.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Крылов/Ларчик.txt', 'r', encoding='utf-8')
         content132 = f.read()
         bot.send_message(call.message.chat.id, content132)
     if call.data == 'lictaandcorh':
-        f = open('botik/стихи/6 класс/Крылов/Листы и корни.txt.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Крылов/Листы и корни.txt.txt', 'r', encoding='utf-8')
         content133 = f.read()
         bot.send_message(call.message.chat.id, content133)
     if call.data == 'oselandcoloviu':
-        f = open('botik/стихи/6 класс/Крылов/Осел и соловей.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Крылов/Осел и соловей.txt', 'r', encoding='utf-8')
         content134 = f.read()
         bot.send_message(call.message.chat.id, content134)
     if call.data == 'shoolik':
-        f = open('botik/стихи/6 класс/Некрасов/Школьник.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Некрасов/Школьник.txt', 'r', encoding='utf-8')
         content135 = f.read()
         bot.send_message(call.message.chat.id, content135)
     if call.data == 'o,kak bezumno':
-        f = open('botik/стихи/6 класс/Блок/О, как безумно за окном….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Блок/О, как безумно за окном….txt', 'r', encoding='utf-8')
         content136 = f.read()
         bot.send_message(call.message.chat.id, content136)
     if call.data == 'pogoramdve':
-        f = open('botik/стихи/6 класс/Полонский/По горам две хмурых тучи….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Полонский/По горам две хмурых тучи….txt', 'r', encoding='utf-8')
         content137 = f.read()
         bot.send_message(call.message.chat.id, content137)
     if call.data == 'kmednomyvsad':
-        f = open('botik/стихи/6 класс/Брюсов/К медному всаднику («В морозном тумане белеет Исакий…»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Брюсов/К медному всаднику («В морозном тумане белеет Исакий…»).txt', 'r', encoding='utf-8')
         content138 = f.read()
         bot.send_message(call.message.chat.id, content138)
     if call.data == 'mernovetdoroga':
-        f = open('botik/стихи/6 класс/Брюсов/Мерно вьет дорога….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Брюсов/Мерно вьет дорога….txt', 'r', encoding='utf-8')
         content139 = f.read()
         bot.send_message(call.message.chat.id, content139)
     if call.data == 'obochla':
-        f = open('botik/стихи/6 класс/Брюсов/Обошла тропа утес….txt.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Брюсов/Обошла тропа утес….txt.txt', 'r', encoding='utf-8')
         content140 = f.read()
         bot.send_message(call.message.chat.id, content140)
     if call.data == 'gdegnytcanad':
-        f = open('botik/стихи/6 класс/Толстой/Где гнутся над омутом лозы….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Толстой/Где гнутся над омутом лозы….txt', 'r', encoding='utf-8')
         content141 = f.read()
         bot.send_message(call.message.chat.id, content141)
     if call.data == 'andymenya':
-        f = open('botik/стихи/6 класс/Толстой/И у меня был край родной когда-то….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Толстой/И у меня был край родной когда-то….txt', 'r', encoding='utf-8')
         content141 = f.read()
         bot.send_message(call.message.chat.id, content141)
     if call.data == 'vstrechazima':
-        f = open('botik/стихи/6 класс/Никитин/Встреча зимы.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Никитин/Встреча зимы.txt', 'r', encoding='utf-8')
         content142 = f.read()
         bot.send_message(call.message.chat.id, content142)
     if call.data == 'tripalmua':
-        f = open('botik/стихи/6 класс/Лермонтов/Три пальмы.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Лермонтов/Три пальмы.txt', 'r', encoding='utf-8')
         content143 = f.read()
         bot.send_message(call.message.chat.id, content143)
     if call.data == 'tushi':
-        f = open('botik/стихи/6 класс/Лермонтов/Тучи.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Лермонтов/Тучи.txt', 'r', encoding='utf-8')
         content144 = f.read()
         bot.send_message(call.message.chat.id, content144)
     if call.data == 'elrukovovmne':
-        f = open('botik/стихи/6 класс/Фет/Ель рукавом мне тропинку завесила….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Фет/Ель рукавом мне тропинку завесила….txt', 'r', encoding='utf-8')
         content145 = f.read()
         bot.send_message(call.message.chat.id, content145)
     if call.data == 'kpamyatniky':
-        f = open('botik/стихи/6 класс/Фет/К памятнику Пушкина («Свободного стиха прославленный творец…»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Фет/К памятнику Пушкина («Свободного стиха прославленный творец…»).txt', 'r', encoding='utf-8')
         content146 = f.read()
         bot.send_message(call.message.chat.id, content146)
     if call.data == 'kakzdessvego':
-        f = open('botik/стихи/6 класс/Фет/Как здесь свежо под липою густою….txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Фет/Как здесь свежо под липою густою….txt', 'r', encoding='utf-8')
         content147 = f.read()
         bot.send_message(call.message.chat.id, content147)
     if call.data == 'les':
-        f = open('botik/стихи/6 класс/Фет/Лес.txt', 'r', encoding='utf-8')
+        f = open('./стихи/6 класс/Фет/Лес.txt', 'r', encoding='utf-8')
         content148 = f.read()
         bot.send_message(call.message.chat.id, content148)
     if call.data == 'wolkand':
-        f = open('botik/стихи/7 класс/Крылов/Волк и журавль.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Крылов/Волк и журавль.txt', 'r', encoding='utf-8')
         content149 = f.read()
         bot.send_message(call.message.chat.id, content149)
     if call.data == 'coochkaand':
-        f = open('botik/стихи/7 класс/Крылов/Кукушка и петух.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Крылов/Кукушка и петух.txt', 'r', encoding='utf-8')
         content150 = f.read()
         bot.send_message(call.message.chat.id, content150)
     if call.data == 'martashkaand':
-        f = open('botik/стихи/7 класс/Крылов/Мартышка и очки.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Крылов/Мартышка и очки.txt', 'r', encoding='utf-8')
         content151 = f.read()
         bot.send_message(call.message.chat.id, content151)
     if call.data == 'letniuivecher':
-        f = open('botik/стихи/7 класс/Тютчев/Летний вечер.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Тютчев/Летний вечер.txt', 'r', encoding='utf-8')
         content152 = f.read()
         bot.send_message(call.message.chat.id, content152)
     if call.data == 'siaetsun':
-        f = open('botik/стихи/7 класс/Тютчев/Сияет солнце, воды блещут….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Тютчев/Сияет солнце, воды блещут….txt', 'r', encoding='utf-8')
         content152 = f.read()
         bot.send_message(call.message.chat.id, content152)
     if call.data == 'umomRussia':
-        f = open('botik/стихи/7 класс/Тютчев/Умом Россию не понять….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Тютчев/Умом Россию не понять….txt', 'r', encoding='utf-8')
         content153 = f.read()
         bot.send_message(call.message.chat.id, content153)
     if call.data == 'vchersshniuden':
-        f = open('botik/стихи/7 класс/Некрасов/Вчерашний день, часу в шестом….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Некрасов/Вчерашний день, часу в шестом….txt', 'r', encoding='utf-8')
         content154 = f.read()
         bot.send_message(call.message.chat.id, content154)
     if call.data == 'razmashleniay':
-        f = open('botik/стихи/7 класс/Некрасов/Размышления у парадного подъезда.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Некрасов/Размышления у парадного подъезда.txt', 'r', encoding='utf-8')
         content156 = f.read()
         bot.send_message(call.message.chat.id, content156)
     if call.data == 'razmashleniay':
-        f = open('botik/стихи/7 класс/Некрасов/Русские женщины. Княгиня Трубецкая.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Некрасов/Русские женщины. Княгиня Трубецкая.txt', 'r', encoding='utf-8')
         content157 = f.read()
         bot.send_message(call.message.chat.id, content157)
     if call.data == 'glushrodnogo':
-        f = open('botik/стихи/7 класс/Блок/Глушь родного леса….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Блок/Глушь родного леса….txt', 'r', encoding='utf-8')
         content158 = f.read()
         bot.send_message(call.message.chat.id, content158)
     if call.data == 'grozaproshla':
-        f = open('botik/стихи/7 класс/Блок/Гроза прошла, и ветка белых роз….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Блок/Гроза прошла, и ветка белых роз….txt', 'r', encoding='utf-8')
         content159 = f.read()
         bot.send_message(call.message.chat.id, content159)
     if call.data == 'mnevdushu':
-        f = open('botik/стихи/7 класс/Блок/Мне в душу просится былое….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Блок/Мне в душу просится былое….txt', 'r', encoding='utf-8')
         content160 = f.read()
         bot.send_message(call.message.chat.id, content160)
     if call.data == 'posledniapyrpyr':
-        f = open('botik/стихи/7 класс/Блок/Последний пурпур догорал….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Блок/Последний пурпур догорал….txt', 'r', encoding='utf-8')
         content161 = f.read()
         bot.send_message(call.message.chat.id, content161)
     if call.data == 'posledniapyrpyr':
-        f = open('botik/стихи/7 класс/Блок/Последний пурпур догорал….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Блок/Последний пурпур догорал….txt', 'r', encoding='utf-8')
         content162 = f.read()
         bot.send_message(call.message.chat.id, content162)
     if call.data == 'sineetgenichru':
-        f = open('botik/стихи/7 класс/Блок/Синеет день хрустальный….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Блок/Синеет день хрустальный….txt', 'r', encoding='utf-8')
         content163 = f.read()
         bot.send_message(call.message.chat.id, content163)
     if call.data == 'vesher':
-        f = open('botik/стихи/7 класс/Фет/Вечер.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Фет/Вечер.txt', 'r', encoding='utf-8')
         content164 = f.read()
         bot.send_message(call.message.chat.id, content164)
     if call.data == 'ocvrussia':
-        f = open('botik/стихи/7 класс/Брюсов/Освобожденная Россия.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Брюсов/Освобожденная Россия.txt', 'r', encoding='utf-8')
         content165 = f.read()
         bot.send_message(call.message.chat.id, content165)
     if call.data == 'freind,yousover':
-        f = open('botik/стихи/7 класс/Толстой/Друзья, вы совершенно правы….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Толстой/Друзья, вы совершенно правы….txt', 'r', encoding='utf-8')
         content166 = f.read()
         bot.send_message(call.message.chat.id, content166)
     if call.data == 'besstalannyadolya':
-        f = open('botik/стихи/7 класс/Никитин/Бесталанная доля.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Никитин/Бесталанная доля.txt', 'r', encoding='utf-8')
         content167 = f.read()
         bot.send_message(call.message.chat.id, content167)
     if call.data == 'nochlegv':
-        f = open('botik/стихи/7 класс/Никитин/Ночлег в деревне.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Никитин/Ночлег в деревне.txt', 'r', encoding='utf-8')
         content168 = f.read()
         bot.send_message(call.message.chat.id, content168)
     if call.data == 'cazdaitryd':
-        f = open('botik/стихи/7 класс/Есенин/Каждый труд благослови, удача….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Есенин/Каждый труд благослови, удача….txt', 'r', encoding='utf-8')
         content169 = f.read()
         bot.send_message(call.message.chat.id, content169)
     if call.data == 'pismomateri':
-        f = open('botik/стихи/7 класс/Есенин/Письмо матери.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Есенин/Письмо матери.txt', 'r', encoding='utf-8')
         content170 = f.read()
         bot.send_message(call.message.chat.id, content170)
     if call.data == 'pismootmateri':
-        f = open('botik/стихи/7 класс/Есенин/Письмо от матери.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Есенин/Письмо от матери.txt', 'r', encoding='utf-8')
         content171 = f.read()
         bot.send_message(call.message.chat.id, content171)
     if call.data == 'spitcoval':
-        f = open('botik/стихи/7 класс/Есенин/Спит ковыль. Равнина дорогая….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Есенин/Спит ковыль. Равнина дорогая….txt', 'r', encoding='utf-8')
         content172 = f.read()
         bot.send_message(call.message.chat.id, content172)
     if call.data == 'angel':
-        f = open('botik/стихи/7 класс/Лермонтов/Ангел.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Лермонтов/Ангел.txt', 'r', encoding='utf-8')
         content173 = f.read()
         bot.send_message(call.message.chat.id, content173)
     if call.data == 'cogdavolny':
-        f = open('botik/стихи/7 класс/Лермонтов/Когда волнуется желтеющая нива….txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Лермонтов/Когда волнуется желтеющая нива….txt', 'r', encoding='utf-8')
         content174 = f.read()
         bot.send_message(call.message.chat.id, content174)
     if call.data == 'molitva(vtrudnyu)':
-        f = open('botik/стихи/7 класс/Лермонтов/Молитва (В минуту жизни трудную…).txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Лермонтов/Молитва (В минуту жизни трудную…).txt', 'r', encoding='utf-8')
         content175 = f.read()
         bot.send_message(call.message.chat.id, content175)
     if call.data == 'pesnyaproIvana':
-        f = open('botik/стихи/7 класс/Лермонтов/Песня про царя Ивана Васильевича, молодого опричника и удалого купца Калашникова.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Лермонтов/Песня про царя Ивана Васильевича, молодого опричника и удалого купца Калашникова.txt', 'r', encoding='utf-8')
         content176 = f.read()
         bot.send_message(call.message.chat.id, content176)
     if call.data == 'neobachnoepri':
-        f = open('botik/стихи/7 класс/Маяковский/Необычайное приключение, бывшее с Владимиром Маяковский летом на даче.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Маяковский/Необычайное приключение, бывшее с Владимиром Маяковский летом на даче.txt', 'r', encoding='utf-8')
         content177 = f.read()
         bot.send_message(call.message.chat.id, content177)
     if call.data == 'horosheeotn':
-        f = open('botik/стихи/7 класс/Маяковский/Хорошее отношение к лошадям.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Маяковский/Хорошее отношение к лошадям.txt', 'r', encoding='utf-8')
         content178 = f.read()
         bot.send_message(call.message.chat.id, content178)
     if call.data == 'borisgodumov':
-        f = open('botik/стихи/7 класс/Пушкин/Борис Годунов.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Пушкин/Борис Годунов.txt', 'r', encoding='utf-8')
         content179 = f.read()
         bot.send_message(call.message.chat.id, content179)
     if call.data == 'zimniqvecher':
-        f = open('botik/стихи/7 класс/Пушкин/Зимний вечер.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Пушкин/Зимний вечер.txt', 'r', encoding='utf-8')
         content180 = f.read()
         bot.send_message(call.message.chat.id, content180)
     if call.data == 'mednyuvsadnik':
-        f = open('botik/стихи/7 класс/Пушкин/Медный всадник.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Пушкин/Медный всадник.txt', 'r', encoding='utf-8')
         content181 = f.read()
         bot.send_message(call.message.chat.id, content181)
     if call.data == 'pesenoveshem':
-        f = open('botik/стихи/7 класс/Пушкин/Песнь о вещем Олеге.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Пушкин/Песнь о вещем Олеге.txt', 'r', encoding='utf-8')
         content182 = f.read()
         bot.send_message(call.message.chat.id, content182)
     if call.data == 'poltava':
-        f = open('botik/стихи/7 класс/Пушкин/Полтава.txt', 'r', encoding='utf-8')
+        f = open('./стихи/7 класс/Пушкин/Полтава.txt', 'r', encoding='utf-8')
         content183 = f.read()
         bot.send_message(call.message.chat.id, content183)
     if call.data == 'vatommire':
-        f = open('botik/стихи/8 класс/Есенин/В этом мире я только прохожий… (сестре Шуре).txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Есенин/В этом мире я только прохожий… (сестре Шуре).txt', 'r', encoding='utf-8')
         content184 = f.read()
         bot.send_message(call.message.chat.id, content184)
     if call.data == 'moupyt':
-        f = open('botik/стихи/8 класс/Есенин/Мой путь.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Есенин/Мой путь.txt', 'r', encoding='utf-8')
         content184 = f.read()
         bot.send_message(call.message.chat.id, content184)
     if call.data == 'sobakecachacova':
-        f = open('botik/стихи/8 класс/Есенин/Собаке Качалова.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Есенин/Собаке Качалова.txt', 'r', encoding='utf-8')
         content185 = f.read()
         bot.send_message(call.message.chat.id, content185)
     if call.data == 'cehnyaupeople':
-        f = open('botik/стихи/8 класс/Есенин/Черный человек.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Есенин/Черный человек.txt', 'r', encoding='utf-8')
         content186 = f.read()
         bot.send_message(call.message.chat.id, content186)
     if call.data == 'shagane':
-        f = open('botik/стихи/8 класс/Есенин/Шаганэ ты моя, Шаганэ….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Есенин/Шаганэ ты моя, Шаганэ….txt', 'r', encoding='utf-8')
         content187 = f.read()
         bot.send_message(call.message.chat.id, content187)
     if call.data == 'zavechanie':
-        f = open('botik/стихи/8 класс/Лермонтов/Завещание (Наедине с тобою, брат…).txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Лермонтов/Завещание (Наедине с тобою, брат…).txt', 'r', encoding='utf-8')
         content188 = f.read()
         bot.send_message(call.message.chat.id, content188)
     if call.data == 'kavkaz':
-        f = open('botik/стихи/8 класс/Лермонтов/Кавказ.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Лермонтов/Кавказ.txt', 'r', encoding='utf-8')
         content189 = f.read()
         bot.send_message(call.message.chat.id, content189)
     if call.data == 'mchari':
-        f = open('botik/стихи/8 класс/Лермонтов/Мцыри.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Лермонтов/Мцыри.txt', 'r', encoding='utf-8')
         content190 = f.read()
         bot.send_message(call.message.chat.id, content190)
     if call.data == 'plenniunairachar':
-        f = open('botik/стихи/8 класс/Лермонтов/Пленный рыцарь.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Лермонтов/Пленный рыцарь.txt', 'r', encoding='utf-8')
         content191 = f.read()
         bot.send_message(call.message.chat.id, content191)
     if call.data == 'siniegorakavkaza':
-        f = open('botik/стихи/8 класс/Лермонтов/Синие горы Кавказа, приветствую вас!...txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Лермонтов/Синие горы Кавказа, приветствую вас!...txt', 'r', encoding='utf-8')
         content192 = f.read()
         bot.send_message(call.message.chat.id, content192)
     if call.data == 'coced':
-        f = open('botik/стихи/8 класс/Лермонтов/Сосед.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Лермонтов/Сосед.txt', 'r', encoding='utf-8')
         content193 = f.read()
         bot.send_message(call.message.chat.id, content193)
     if call.data == 'lyagushks':
-        f = open('botik/стихи/8 класс/Крылов/Лягушки, просящие царя.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Крылов/Лягушки, просящие царя.txt', 'r', encoding='utf-8')
         content194 = f.read()
         bot.send_message(call.message.chat.id, content194)
     if call.data == 'obraz':
-        f = open('botik/стихи/8 класс/Крылов/Обоз.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Крылов/Обоз.txt', 'r', encoding='utf-8')
         content195 = f.read()
         bot.send_message(call.message.chat.id, content195)
     if call.data == 'volknapsarne':
-        f = open('botik/стихи/8 класс/Крылов/Волк на псарне.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Крылов/Волк на псарне.txt', 'r', encoding='utf-8')
         content196 = f.read()
         bot.send_message(call.message.chat.id, content196)
     if call.data == 'vdushnomvoz':
-        f = open('botik/стихи/8 класс/Тютчев/В душном воздуха молчанье….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Тютчев/В душном воздуха молчанье….txt', 'r', encoding='utf-8')
         content197 = f.read()
         bot.send_message(call.message.chat.id, content197)
     if call.data == 'obveyanvesh':
-        f = open('botik/стихи/8 класс/Тютчев/Обвеян вещею дремотой….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Тютчев/Обвеян вещею дремотой….txt', 'r', encoding='utf-8')
         content198 = f.read()
         bot.send_message(call.message.chat.id, content198)
     if call.data == 'schugoustro':
-        f = open('botik/стихи/8 класс/Тютчев/С чужой стороны ( Из Гейне ).txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Тютчев/С чужой стороны ( Из Гейне ).txt', 'r', encoding='utf-8')
         content199 = f.read()
         bot.send_message(call.message.chat.id, content199)
     if call.data == 'fontan':
-        f = open('botik/стихи/8 класс/Тютчев/Фонтан.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Тютчев/Фонтан.txt', 'r', encoding='utf-8')
         content200 = f.read()
         bot.send_message(call.message.chat.id, content200)
     if call.data == 'vdoroge':
-        f = open('botik/стихи/8 класс/Некрасов/В дороге.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Некрасов/В дороге.txt', 'r', encoding='utf-8')
         content201 = f.read()
         bot.send_message(call.message.chat.id, content201)
     if call.data == 'vnimyaaygasam':
-        f = open('botik/стихи/8 класс/Некрасов/Внимая ужасам войны….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Некрасов/Внимая ужасам войны….txt', 'r', encoding='utf-8')
         content202 = f.read()
         bot.send_message(call.message.chat.id, content202)
     if call.data == 'estgenshin':
-        f = open('botik/стихи/8 класс/Некрасов/Есть женщины в русских селеньях… (отрывок из «Мороз, красный нос»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Некрасов/Есть женщины в русских селеньях… (отрывок из «Мороз, красный нос»).txt', 'r', encoding='utf-8')
         content203 = f.read()
         bot.send_message(call.message.chat.id, content203)
     if call.data == 'gorodspit':
-        f = open('botik/стихи/8 класс/Блок/Город спит, окутан мглою….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Блок/Город спит, окутан мглою….txt', 'r', encoding='utf-8')
         content204 = f.read()
         bot.send_message(call.message.chat.id, content204)
     if call.data == 'odoblestyaho':
-        f = open('botik/стихи/8 класс/Блок/О доблестях, о подвигах, о славе….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Блок/О доблестях, о подвигах, о славе….txt', 'r', encoding='utf-8')
         content205 = f.read()
         bot.send_message(call.message.chat.id, content205)
     if call.data == 'o,kaksmeyal':
-        f = open('botik/стихи/8 класс/Блок/О, как смеялись вы над нами….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Блок/О, как смеялись вы над нами….txt', 'r', encoding='utf-8')
         content206 = f.read()
         bot.send_message(call.message.chat.id, content206)
     if call.data == 'o,prezirat':
-        f = open('botik/стихи/8 класс/Блок/О, презирать я вас не в силах….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Блок/О, презирать я вас не в силах….txt', 'r', encoding='utf-8')
         content207 = f.read()
         bot.send_message(call.message.chat.id, content207)
     if call.data == 'priridavecher':
-        f = open('botik/стихи/8 класс/Блок/Природы вечера могучей….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Блок/Природы вечера могучей….txt', 'r', encoding='utf-8')
         content208 = f.read()
         bot.send_message(call.message.chat.id, content208)
     if call.data == 'taborchel':
-        f = open('botik/стихи/8 класс/Блок/Табор шел. Вверху сверкали звезды….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Блок/Табор шел. Вверху сверкали звезды….txt', 'r', encoding='utf-8')
         content209 = f.read()
         bot.send_message(call.message.chat.id, content209)
     if call.data == 'ychisounix':
-        f = open('botik/стихи/8 класс/Фет/Учись у них — у дуба, у березы….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Фет/Учись у них — у дуба, у березы….txt', 'r', encoding='utf-8')
         content210 = f.read()
         bot.send_message(call.message.chat.id, content210)
     if call.data == 'chelyamirot':
-        f = open('botik/стихи/8 класс/Фет/Целый мир от красоты….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Фет/Целый мир от красоты….txt', 'r', encoding='utf-8')
         content211 = f.read()
         bot.send_message(call.message.chat.id, content211)
     if call.data == 'nasyhouiosine':
-        f = open('botik/стихи/8 класс/Брюсов/На сухой осине серая ворона….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Брюсов/На сухой осине серая ворона….txt', 'r', encoding='utf-8')
         content212 = f.read()
         bot.send_message(call.message.chat.id, content212)
     if call.data == 'naryuadvesnu':
-        f = open('botik/стихи/8 класс/Брюсов/Наряд весны.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Брюсов/Наряд весны.txt', 'r', encoding='utf-8')
         content213 = f.read()
         bot.send_message(call.message.chat.id, content213)
     if call.data == 'pamitnik':
-        f = open('botik/стихи/8 класс/Брюсов/Памятник.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Брюсов/Памятник.txt', 'r', encoding='utf-8')
         content214 = f.read()
         bot.send_message(call.message.chat.id, content214)
     if call.data == 'sonetkforme':
-        f = open('botik/стихи/8 класс/Брюсов/Сонет к форме.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Брюсов/Сонет к форме.txt', 'r', encoding='utf-8')
         content215 = f.read()
         bot.send_message(call.message.chat.id, content215)
     if call.data == 'istochnikza':
-        f = open('botik/стихи/8 класс/Толстой Ал/Источник за вишневым садом….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Толстой Ал/Источник за вишневым садом….txt', 'r', encoding='utf-8')
         content216 = f.read()
         bot.send_message(call.message.chat.id, content216)
     if call.data == 'colashetstya':
-        f = open('botik/стихи/8 класс/Толстой Ал/Колышется море; волна за волной….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Толстой Ал/Колышется море; волна за волной….txt', 'r', encoding='utf-8')
         content217 = f.read()
         bot.send_message(call.message.chat.id, content217)
     if call.data == 'cramskieocherki5':
-        f = open('botik/стихи/8 класс/Толстой Ал/Крымские очерки 5 («Вы всe любуетесь на скалы…»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Толстой Ал/Крымские очерки 5 («Вы всe любуетесь на скалы…»).txt', 'r', encoding='utf-8')
         content218 = f.read()
         bot.send_message(call.message.chat.id, content218)
     if call.data == 'genayamshika':
-        f = open('botik/стихи/8 класс/Никитин/Жена ямщика.txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Никитин/Жена ямщика.txt', 'r', encoding='utf-8')
         content219 = f.read()
         bot.send_message(call.message.chat.id, content219)
     if call.data == 'cogdazakat':
-        f = open('botik/стихи/8 класс/Никитин/Когда закат прощальными лучами….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Никитин/Когда закат прощальными лучами….txt', 'r', encoding='utf-8')
         content220 = f.read()
         bot.send_message(call.message.chat.id, content220)
     if call.data == 'prisutstviene':
-        f = open('botik/стихи/8 класс/Никитин/Присутствие непостижимой силы….txt', 'r', encoding='utf-8')
+        f = open('./стихи/8 класс/Никитин/Присутствие непостижимой силы….txt', 'r', encoding='utf-8')
         content221 = f.read()
         bot.send_message(call.message.chat.id, content221)
     if call.data == 'votuzmouvecher':
-        f = open('botik/стихи/9 класс/Есенин/Вот уж вечер. Роса….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Есенин/Вот уж вечер. Роса….txt', 'r', encoding='utf-8')
         content222 = f.read()
         bot.send_message(call.message.chat.id, content222)
     if call.data == 'goutouRus':
-        f = open('botik/стихи/9 класс/Есенин/Гой ты, Русь, моя родная….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Есенин/Гой ты, Русь, моя родная….txt', 'r', encoding='utf-8')
         content222 = f.read()
         bot.send_message(call.message.chat.id, content222)
     if call.data == 'crayutuamou':
-        f = open('botik/стихи/9 класс/Есенин/Край ты мой заброшенный….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Есенин/Край ты мой заброшенный….txt', 'r', encoding='utf-8')
         content222 = f.read()
         bot.send_message(call.message.chat.id, content222)
     if call.data == 'anchar':
-        f = open('botik/стихи/9 класс/Пушкин/Анчар.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/Анчар.txt', 'r', encoding='utf-8')
         content223 = f.read()
         bot.send_message(call.message.chat.id, content223)
     if call.data == 'besyas':
-        f = open('botik/стихи/9 класс/Пушкин/Бесы.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/Бесы.txt', 'r', encoding='utf-8')
         content224 = f.read()
         bot.send_message(call.message.chat.id, content224)
     if call.data == 'voglubene':
-        f = open('botik/стихи/9 класс/Пушкин/Во глубине сибирских руд.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/Во глубине сибирских руд.txt', 'r', encoding='utf-8')
         content225 = f.read()
         bot.send_message(call.message.chat.id, content225)
     if call.data == 'derevnya':
-        f = open('botik/стихи/9 класс/Пушкин/Деревня.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/Деревня.txt', 'r', encoding='utf-8')
         content226 = f.read()
         bot.send_message(call.message.chat.id, content226)
     if call.data == 'kchadeevya':
-        f = open('botik/стихи/9 класс/Пушкин/К Чаадаеву.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/К Чаадаеву.txt', 'r', encoding='utf-8')
         content227 = f.read()
         bot.send_message(call.message.chat.id, content227)
     if call.data == 'osen(otravok)':
-        f = open('botik/стихи/9 класс/Пушкин/Осень (отрывок).txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/Осень (отрывок).txt', 'r', encoding='utf-8')
         content228 = f.read()
         bot.send_message(call.message.chat.id, content228)
     if call.data == 'prorok':
-        f = open('botik/стихи/9 класс/Пушкин/Пророк.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/Пророк.txt', 'r', encoding='utf-8')
         content229 = f.read()
         bot.send_message(call.message.chat.id, content229)
     if call.data == 'chaganawiht':
-        f = open('botik/стихи/9 класс/Пушкин/Цыганы. С английского.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/Цыганы. С английского.txt', 'r', encoding='utf-8')
         content230 = f.read()
         bot.send_message(call.message.chat.id, content230)
     if call.data == 'yapomhuchudnogo':
-        f = open('botik/стихи/9 класс/Пушкин/Я помню чудное мгновенье….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Пушкин/Я помню чудное мгновенье….txt', 'r', encoding='utf-8')
         content231 = f.read()
         bot.send_message(call.message.chat.id, content231)
     if call.data == 'vahoguyodin':
-        f = open('botik/стихи/9 класс/Лермотнов/Выхожу один я на дорогу….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Лермотнов/Выхожу один я на дорогу….txt', 'r', encoding='utf-8')
         content232 = f.read()
         bot.send_message(call.message.chat.id, content232)
     if call.data == 'demon':
-        f = open('botik/стихи/9 класс/Лермотнов/Демон.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Лермотнов/Демон.txt', 'r', encoding='utf-8')
         content233 = f.read()
         bot.send_message(call.message.chat.id, content233)
     if call.data == 'andscoochnoand':
-        f = open('botik/стихи/9 класс/Лермотнов/И скучно и грустно….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Лермотнов/И скучно и грустно….txt', 'r', encoding='utf-8')
         content234 = f.read()
         bot.send_message(call.message.chat.id, content234)
     if call.data == 'nishiui':
-        f = open('botik/стихи/9 класс/Лермотнов/Нищий.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Лермотнов/Нищий.txt', 'r', encoding='utf-8')
         content235 = f.read()
         bot.send_message(call.message.chat.id, content235)
     if call.data == 'covet':
-        f = open('botik/стихи/9 класс/Лермотнов/Совет.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Лермотнов/Совет.txt', 'r', encoding='utf-8')
         content236 = f.read()
         bot.send_message(call.message.chat.id, content236)
     if call.data == 'pervualist':
-        f = open('botik/стихи/9 класс/Тютчев/Первый лист.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Тютчев/Первый лист.txt', 'r', encoding='utf-8')
         content237 = f.read()
         bot.send_message(call.message.chat.id, content237)
     if call.data == 'nravstvenchelovek':
-        f = open('botik/стихи/9 класс/Некрасов/Нравственный человек.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Некрасов/Нравственный человек.txt', 'r', encoding='utf-8')
         content238 = f.read()
         bot.send_message(call.message.chat.id, content238)
     if call.data == 'trouka':
-        f = open('botik/стихи/9 класс/Некрасов/Тройка.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Некрасов/Тройка.txt', 'r', encoding='utf-8')
         content239 = f.read()
         bot.send_message(call.message.chat.id, content239)
     if call.data == 'gamayanpticha':
-        f = open('botik/стихи/9 класс/Блок/Гамаюн, птица вещая (картина В. Васнецова).txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Блок/Гамаюн, птица вещая (картина В. Васнецова).txt', 'r', encoding='utf-8')
         content240 = f.read()
         bot.send_message(call.message.chat.id, content240)
     if call.data == 'estvremenaeat':
-        f = open('botik/стихи/9 класс/Блок/Есть времена, есть дни, когда….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Блок/Есть времена, есть дни, когда….txt', 'r', encoding='utf-8')
         content241 = f.read()
         bot.send_message(call.message.chat.id, content241)
     if call.data == 'kakamimoletnaten':
-        f = open('botik/стихи/9 класс/Блок/Как мимолетна тень осенних ранних дней….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Блок/Как мимолетна тень осенних ранних дней….txt', 'r', encoding='utf-8')
         content242 = f.read()
         bot.send_message(call.message.chat.id, content242)
     if call.data == 'rusmyagiz':
-        f = open('botik/стихи/9 класс/Блок/Русь моя, жизнь моя, вместе ль нам маяться….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Блок/Русь моя, жизнь моя, вместе ль нам маяться….txt', 'r', encoding='utf-8')
         content243 = f.read()
         bot.send_message(call.message.chat.id, content243)
     if call.data == 'fabrika':
-        f = open('botik/стихи/9 класс/Блок/Фабрика.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Блок/Фабрика.txt', 'r', encoding='utf-8')
         content244 = f.read()
         bot.send_message(call.message.chat.id, content244)
     if call.data == 'vesnanadvo':
-        f = open('botik/стихи/9 класс/Фет/Весна на дворе.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Фет/Весна на дворе.txt', 'r', encoding='utf-8')
         content245 = f.read()
         bot.send_message(call.message.chat.id, content245)
     if call.data == 'chudnyakartina':
-        f = open('botik/стихи/9 класс/Фет/Чудная картина….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Фет/Чудная картина….txt', 'r', encoding='utf-8')
         content246 = f.read()
         bot.send_message(call.message.chat.id, content246)
     if call.data == 'andsnovadav':
-        f = open('botik/стихи/9 класс/Брюсов/И снова давние картины….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Брюсов/И снова давние картины….txt', 'r', encoding='utf-8')
         content247 = f.read()
         bot.send_message(call.message.chat.id, content247)
     if call.data == 'kpartretyM.Ya':
-        f = open('botik/стихи/9 класс/Брюсов/К портрету М.Ю. Лермонтова.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Брюсов/К портрету М.Ю. Лермонтова.txt', 'r', encoding='utf-8')
         content248 = f.read()
         bot.send_message(call.message.chat.id, content248)
     if call.data == 'otravok':
-        f = open('botik/стихи/9 класс/Брюсов/Отрывок («Небо — серое от туч…»).txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Брюсов/Отрывок («Небо — серое от туч…»).txt', 'r', encoding='utf-8')
         content249 = f.read()
         bot.send_message(call.message.chat.id, content249)
     if call.data == 'rodnoiuyazak':
-        f = open('botik/стихи/9 класс/Брюсов/Родной язык.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Брюсов/Родной язык.txt', 'r', encoding='utf-8')
         content250 = f.read()
         bot.send_message(call.message.chat.id, content250)
     if call.data == 'mnenravitca':
-        f = open('botik/стихи/9 класс/Цветаева/Мне нравится, что Вы больны не мной….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Цветаева/Мне нравится, что Вы больны не мной….txt', 'r', encoding='utf-8')
         content251 = f.read()
         bot.send_message(call.message.chat.id, content251)
     if call.data == '19octomber':
-        f = open('botik/стихи/9 класс/Никитин/19 Октября.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Никитин/19 Октября.txt', 'r', encoding='utf-8')
         content252 = f.read()
         bot.send_message(call.message.chat.id, content252)
     if call.data == 'gizn':
-        f = open('botik/стихи/9 класс/Никитин/Жизнь.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Никитин/Жизнь.txt', 'r', encoding='utf-8')
         content253 = f.read()
         bot.send_message(call.message.chat.id, content253)
     if call.data == 'cogdaNeva':
-        f = open('botik/стихи/9 класс/Никитин/Когда Невы, окованной гранитом….txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Никитин/Когда Невы, окованной гранитом….txt', 'r', encoding='utf-8')
         content254 = f.read()
         bot.send_message(call.message.chat.id, content254)
     if call.data == 'doroga':
-        f = open('botik/стихи/9 класс/Полонский/Дорога.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Полонский/Дорога.txt', 'r', encoding='utf-8')
         content255 = f.read()
         bot.send_message(call.message.chat.id, content255)
     if call.data == 'zimniuiput':
-        f = open('botik/стихи/9 класс/Полонский/Зимний путь.txt', 'r', encoding='utf-8')
+        f = open('./стихи/9 класс/Полонский/Зимний путь.txt', 'r', encoding='utf-8')
         content256 = f.read()
         bot.send_message(call.message.chat.id, content256)
     if call.data == 'shameless':
-        f = open('botik/стихи/10 класс/Блок/Грешить бесстыдно, непробудно….txt', 'r', encoding='utf-8')
+        f = open('./стихи/10 класс/Блок/Грешить бесстыдно, непробудно….txt', 'r', encoding='utf-8')
         content257 = f.read()
         bot.send_message(call.message.chat.id, content257)
     if call.data == 'Aspelloffireanddarkness':
-        f = open('botik/стихи/10 класс/Блок/Заклятие огнем и мраком.txt', 'r', encoding='utf-8')
+        f = open('./стихи/10 класс/Блок/Заклятие огнем и мраком.txt', 'r', encoding='utf-8')
         content258 = f.read()
         bot.send_message(call.message.chat.id, content258)
     if call.data == 'Slow':
-        f = open('botik/стихи/10 класс/Блок/Медлительной чредой нисходит день осенний….txt', 'r', encoding='utf-8')
+        f = open('./стихи/10 класс/Блок/Медлительной чредой нисходит день осенний….txt', 'r', encoding='utf-8')
         content260 = f.read()
         bot.send_message(call.message.chat.id, content260)
     if call.data == 'neyhodi.po':
-        f = open('botik/стихи/10 класс/Блок/Не уходи. Побудь со мною….txt', 'r', encoding='utf-8')
+        f = open('./стихи/10 класс/Блок/Не уходи. Побудь со мною….txt', 'r', encoding='utf-8')
         content261 = f.read()
         bot.send_message(call.message.chat.id, content261)
     if call.data == 'DancesofDeath':
-        f = open('botik/стихи/10 класс/Блок/Пляски смерти.txt', 'r', encoding='utf-8')
+        f = open('./стихи/10 класс/Блок/Пляски смерти.txt', 'r', encoding='utf-8')
         content262 = f.read()
         bot.send_message(call.message.chat.id, content262)
     if call.data == 'reproachfully':
-        f = open('botik/стихи/10 класс/Есенин/Не гляди на меня с упреком….txt', 'r', encoding='utf-8')
+        f = open('./стихи/10 класс/Есенин/Не гляди на меня с упреком….txt', 'r', encoding='utf-8')
         content263 = f.read()
         bot.send_message(call.message.chat.id, content263)
     if call.data == 'no,you':
-        f = open('botik/стихи/10 класс/Лермонтов/Нет, не тебя так пылко я люблю….txt', 'r', encoding='utf-8')
+        f = open('./стихи/10 класс/Лермонтов/Нет, не тебя так пылко я люблю….txt', 'r', encoding='utf-8')
         content264 = f.read()
         bot.send_message(call.message.chat.id, content264)
     if call.data == 'Webrokeup':
-        f = open('botik/стихи/10 класс/Лермонтов/Расстались мы; но твой портрет….txt', 'r', encoding='utf-8')
+        f = open('./стихи/10 класс/Лермонтов/Расстались мы.txt', 'r', encoding='utf-8')
+        # f = open('стихи/10 класс/Лермонтов/lolo.txt', 'r', encoding='utf-8')
         content265 = f.read()
         bot.send_message(call.message.chat.id, content265)
 
